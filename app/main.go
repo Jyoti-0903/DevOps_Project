@@ -68,7 +68,7 @@ func main() {
 	fs := http.FileServer(http.Dir("assets/"))
 	port := getConfig("ERVCP_PORT", "8080")
 
-	fmt.Printf("Hello, ERVCP listening on port %s", port)
+	fmt.Printf("Hello,ERVCP listening on port %s", port)
 
 	http.HandleFunc("/", handleRoot)
 	http.HandleFunc("/health", handleHealth)
