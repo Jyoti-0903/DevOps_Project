@@ -19,7 +19,7 @@ This application is configured via environment variables:
 
 ## Building and running
 
-To build the application, run:
+To build the application, run:-
 
     go build
 
