@@ -30,6 +30,6 @@ This will create binary `ervcp` that you can run:
 By default, ERVCP run on http://localhost:8080.
 
 
-## Credits
+## Credits#
 
 Favicon by [icon8](https://icons8.com/icons/set/favicon) <3
