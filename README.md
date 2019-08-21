@@ -23,7 +23,7 @@ To build the application, run:
 
     go build
 
-This will create binary `ervcp` that you can run:
+This will create binary `ervcp` that you can run:-
 
     ervcp
 
