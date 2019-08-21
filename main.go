@@ -66,7 +66,7 @@ func handleHealth(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	fs := http.FileServer(http.Dir("assets/"))
-	port := getConfig("ERVCP_PORT", "8080")
+	port := getConfig("Hello, ERVCP_PORT", "8080")
 
 	fmt.Printf("ERVCP listening on port %s", port)
 
